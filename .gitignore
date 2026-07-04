@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Streamlit state
+.streamlit/secrets.toml
+
+# Generated model artifacts
+src/checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# Local datasets
+data/
