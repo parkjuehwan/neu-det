@@ -1,0 +1,15 @@
+train/
+validation/
+crops/
+
+outputs/models/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.logs/
+docs/superpowers/
+
+*.pth
+*.pt
+*.pkl
+*.joblib

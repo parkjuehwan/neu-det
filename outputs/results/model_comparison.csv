@@ -1,0 +1,3 @@
+﻿model,accuracy,report_path
+Baseline CNN,0.8934426229508197,C:\NEU-DET\outputs\results\baseline_classification_report.csv
+ResNet18 Transfer,0.9929742388758782,C:\NEU-DET\outputs\results\resnet18_classification_report.csv
