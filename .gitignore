@@ -1,15 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Streamlit state and logs
+.streamlit/secrets.toml
+.logs/
+
+# Local datasets
+data/
 train/
 validation/
 crops/
 
+# Generated model artifacts
+src/checkpoints/
 outputs/models/
-__pycache__/
-.ipynb_checkpoints/
-.venv/
-.logs/
-docs/superpowers/
-
 *.pth
 *.pt
+*.onnx
 *.pkl
 *.joblib
+
+# Notebook and agent scratch files
+.ipynb_checkpoints/
+docs/superpowers/
