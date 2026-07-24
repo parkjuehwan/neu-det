@@ -113,7 +113,7 @@ python -m py_compile app.py src\dashboard_utils.py
 
 저장된 모델 비교 결과는 다음과 같습니다.
 
-- Baseline CNN accuracy: `0.893443`
-- ResNet18 transfer-learning accuracy: `0.992974`
+- Baseline CNN accuracy: `0.89344`
+- ResNet18 transfer-learning accuracy: `0.99297`
 
 대표 시각화 산출물은 `outputs/figures/` 아래에 저장되어 있습니다. 여기에는 confusion matrix, EDA plot, 오분류 예시, Grad-CAM sample이 포함됩니다.
